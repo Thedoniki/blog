@@ -1,0 +1,12 @@
+Page {{displayCurrentPageNumber}} of {{totalPages}}<br>
+{{#hasPrevious}}
+    <a href="/page/{{previousPageNumber}}">
+        <i class="fa fa-arrow-circle-left"></i> Previous page
+    </a>
+{{/hasPrevious}}
+
+{{#hasNext}}
+    <a href="/page/{{nextPageNumber}}">
+        Next page <i class="fa fa-arrow-circle-right"></i>
+    </a>
+{{/hasNext}}
